@@ -1,0 +1,15 @@
+On peux utiliser la commande <cron>
+
+Une tâche planifiée dans un fichier de Cron est composée de 3 données différentes :
+- Sa période de répétition définie par 5 données différentes :
+    Les minutes ;
+    Les heures ;
+    Les jours dans le mois ;
+    Les mois ;
+    Les jours de la semaine ;
+- L’utilisateur système sous lequel la tâche sera réalisée ;
+- La commande à réaliser ;
+
+Une commande complète ressemblera donc à :
+30 0 1 1,6,12 * root /home/backup/backup.cmd &> /dev/null
+(Realisera l'action a minuit trente le 1er janvier, juin et decembre)

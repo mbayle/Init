@@ -1,0 +1,2 @@
+sudo iptables -A INPUT -j REJECT
+sudo iptables -A OUTPUT -j REJECT

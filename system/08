@@ -1,0 +1,2 @@
+Si le sshd_config le permet (voir ligne PubkeyAuthentification yes), il est possible alors de trouver un fichier "authorized_keys".
+</etc/ssh>

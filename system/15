@@ -1,0 +1,2 @@
+ps -a (find PID for tail)
+sudo kill <PID>

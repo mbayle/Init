@@ -1,0 +1,2 @@
+systemctl status ssh
+<dans le repertoire /etc/init.d>

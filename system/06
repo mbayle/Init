@@ -1,0 +1,2 @@
+sudo service ssh restart
+<dans le repertoire /bin>

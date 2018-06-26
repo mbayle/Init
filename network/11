@@ -1,0 +1,3 @@
+Le NAT nous permet de faire le lien avec l'exterieur.
+La fonction NAT dans un routeur de service intégré (ISR) traduit une adresse IP source interne en adresse IP globale.
+Ce procédé est très largement utilisé par les box internet (ou modem routeur) des fournisseurs d’accès pour cacher les ordinateurs domestiques derrière une seule identification publique. Il est également utilisé de façon similaire dans des réseaux privés virtuels.
