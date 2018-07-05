@@ -1,1 +1,1 @@
-networksetup -getinfo ethernet
+ifconfig en0
