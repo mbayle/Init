@@ -8,7 +8,7 @@ fi
 cd /etc/
 
 if ! sha256sum -c crontab_backup.sha256; then
-	mail -s "SECURITY ALERT" root@addtest.com <<< "Shasum report : Crontab sha256sum failed. File may possibily be corrupted."
+	mail -s "SECURITY ALERT" root@addtest.com < "Shasum report : Crontab sha256sum failed. File may possibily be corrupted."
 fi
 
 0 0 * * * root /etc/cron.daily/test.sh >/dev/null 2>&1
